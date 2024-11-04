@@ -1,0 +1,195 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #007bff; /* Biru */
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan bawah */
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav .nav-link i {
+    margin-right: 8px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffc107; /* Warna kuning saat hover */
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #ffc107;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffc107; /* Garis kuning untuk menandai halaman aktif */
+  }
+  
+  /* Dropdown styling */
+  .navbar .dropdown-menu {
+    background-color: #0056b3; /* Biru gelap untuk dropdown */
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .navbar .dropdown-item {
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar .dropdown-item:hover {
+    background-color: #003d7a; /* Biru lebih gelap saat hover */
+  }
+  
+  /* Search Form Styling */
+  .nav-item form .form-control {
+    border-radius: 20px 0 0 20px;
+    border: 2px solid #007bff; /* Border biru untuk input */
+  }
+  
+  .nav-item form .btn {
+    border-radius: 0 20px 20px 0;
+    background-color: #ffc107; /* Kuning untuk tombol */
+    color: #007bff;
+  }
+  
+  /* Header Section */
+  header h1 {
+    color: #007bff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Profile Image in Home */
+  img.rounded-circle.img-thumbnail {
+    border: 3px solid #007bff;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 1rem;
+  }
+  
+  /* Card Styles */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 1.5rem;
+    background-color: #fff; /* Putih dengan bayangan */
+  }
+  
+  .card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Bayangan saat hover */
+  }
+  
+  .card h3.card-title,
+  .card h5.card-title {
+    color: #007bff; /* Warna biru untuk judul */
+    font-weight: bold;
+  }
+  
+  .card-body i {
+    color: #007bff; /* Warna biru untuk ikon dalam kartu */
+    margin-right: 5px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #343a40; /* Abu-abu gelap */
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative; /* Mengatur posisi footer */
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  footer .contact-info {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  footer .social-icons {
+    margin-top: 1rem;
+  }
+  
+  footer .social-icons i {
+    color: #ffc107; /* Warna kuning untuk ikon sosial */
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-icons i:hover {
+    color: #fff; /* Warna putih saat hover */
+  }
+  
+  /* Utility Classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .py-3 {
+    padding: 1rem 0;
+  }
+  
+  .shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
