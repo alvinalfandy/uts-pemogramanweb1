@@ -124,7 +124,8 @@ Website dinamis dengan tema One Piece yang dibangun menggunakan PHP, Bootstrap, 
 
 ### 4. DataTables Page (datatables.php)
 
-![alt text](Gambar/datatable.png)
+![image](https://github.com/user-attachments/assets/45f34cbb-d15c-451f-87d4-9cdf9732b43a)
+
 
 #### Fitur Tabel
 
